@@ -1,0 +1,130 @@
+
+.page{
+    background-color:rgb(238, 238, 238) ;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.hero{
+    padding:10rem;
+    text-align: center;
+    background-color: rgb(31, 30, 29);
+    color: white;
+
+
+}
+.btn{
+    display: flex;
+   margin-left: 1200px;
+   background-color:rgb(50, 127, 199); 
+   color:white; 
+   padding: 10px; 
+   border-radius:8px; 
+   font-size:1.2rem;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    
+}
+
+.section-1{
+    margin:10rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+.one{
+    font-size: 3rem;
+    background-color: rgb(50, 127, 199);
+    color:white;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    top: -80px;
+    left: -20px;
+    border-radius: 40px;
+    position: relative;
+    box-shadow: black inset;
+}
+
+.cta{
+    color: white;
+   
+}
+
+.section-2{
+    display: flex;
+    margin:10rem;
+    border-inline: black;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+.section-3{
+    margin:10rem;
+    padding-top:7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+.section-4{
+    margin:10rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+.section-5{
+    margin:10rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+.section-6{
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+.section-7{
+    margin:10rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+}
+
+.sub-6{
+    display: flex;
+    justify-content: space-between;
+}
+.btm{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.footer-left{
+    display: flex;
+    justify-content: left;
+    padding-right: 300px;
+}
+
+.middle-footer{
+    display: flex;
+    justify-items: center;
+}
+.footer-right{
+    display:flex;
+    justify-content: right;
+    padding-left: 300px;
+}
