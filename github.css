@@ -1,130 +1,247 @@
-
-.page{
-    background-color:rgb(238, 238, 238) ;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.hero{
-    padding:10rem;
+body{
+    margin: 0px;
     text-align: center;
-    background-color: rgb(31, 30, 29);
-    color: white;
-
-
 }
+
 .btn{
-    display: flex;
-   margin-left: 1200px;
-   background-color:rgb(50, 127, 199); 
-   color:white; 
-   padding: 10px; 
-   border-radius:8px; 
-   font-size:1.2rem;
-
+    font-size: 0.7em;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 5 solid;
+    border-color: gray;
+    padding: 7px;
+    z-index: 1;
+    position: relative;
+    bottom: 0px;
+    left: 560px;
 }
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255); 
-    
+
+.hero{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding-top: 20px;
+    color: white;
+}
+
+.heroHead{ 
+    font-size: 2.5em !important;
+    font-weight: bold; 
+    color: white;
+    padding-top: 30px;
+}
+
+.container1{
+    background-color: rgb(212, 212, 212);
+    padding-left: 100px; padding-right: 100px; padding-bottom: 100px;
+}
+
+.subHead{
+    font-size: 2.5em; 
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+.heroText{
+    font-size: 1em; 
+    color: rgb(107, 105, 105);
+}
+
+.heroImage{
+    width:70%;
 }
 
 .section-1{
-    margin:10rem;
-    padding-bottom: 7rem;
-    text-align: center;
-    color: rgb(15, 15, 15);
+    justify-content: center; background-color: rgb(235, 235, 235);
+   
 }
-.one{
-    font-size: 3rem;
-    background-color: rgb(50, 127, 199);
-    color:white;
-    text-align: center;
-    width: 80px;
-    height: 80px;
-    top: -80px;
-    left: -20px;
-    border-radius: 40px;
-    position: relative;
-    box-shadow: black inset;
+.headMain{
+    font-size: 3em; line-height:1.5em; width: 70%; display: inline-block; padding-top: 50px; 
+}
+.subMainText{
+    font-size:1.5em; line-height: 1.5em; text-align: center; width: 50%; padding: 30px;
 }
 
-.cta{
-    color: white;
-   
+.sec1Button{
+    display: inline-flex;       
+}
+
+.cta1{
+    background-color:rgb(50, 127, 199); color:white; padding:10px; border-radius:8px 0px 0px 8px; font-size:0.7em; border:1 solid; border-color: rgb(50, 127, 199);
+}
+.cta2{
+    background-color:rgb(247, 248, 250); color:rgb(50, 127, 199); padding:10px; border-radius:0px 8px 8px 0px; font-size:0.7em; border:1 solid; border-color: rgb(199, 199, 199);
 }
 
 .section-2{
-    display: flex;
-    margin:10rem;
-    border-inline: black;
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
-}
-.section-3{
-    margin:10rem;
-    padding-top:7rem;
-    padding-bottom: 7rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
-}
-.section-4{
-    margin:10rem;
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
-}
-.section-5{
-    margin:10rem;
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
-}
-.section-6{
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
-}
-.section-7{
-    margin:10rem;
-    padding-top:3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 15, 15);
+    /* display:inline-flex;
+    font-size: 1.1em; width:90%; background-color: rgb(255, 255, 255); padding: 20px 20px; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211);
+        
+    */
+
+   width:90%; background-color: rgb(255, 255, 255); display:grid; grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(1,ifr); border: 1px solid; border-color: rgb(211, 211, 211)}
+
+.one{
+   font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: 1; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
 }
 
-.sub-6{
-    display: flex;
-    justify-content: space-between;
+.section2Main{
+    display: inline-block; align-self: center; padding-left: 110px; width: 91%;
 }
-.btm{
-    display: flex;
-    justify-content: center;
-    background-color: white;
+
+.sec2Head{
+    font-size: 2em !important; text-align: center !important; padding-top: 20px;
+}
+
+.section2-left{
+    width:100%; background-color: rgb(255, 255, 255); padding: 20px 20px; border-color: rgb(34, 33, 33); border: 1px solid; border-color: rgb(211, 211, 211)
+
+}
+.sub2-text{
+    font-size: 1em; padding: 10px 10px 10px 30px;  text-align: center;
+}
+
+.sub2-text2{
+    font-size: 0.7em; padding-bottom: 10px 10px 30px 20px; padding-left: 10px; text-align: center; font-style: italic;
+
+}
+
+.section2-right{
+    width:100%;
+}
+
+.section2-image{
+    width:70%; padding-top: 80px; justify-content: center;
+}
+
+.third3{
+    display:inline-block; background-color: rgb(255, 255, 255); width: 75%; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211); padding: 50px 50px; margin-bottom: 70px;
+}
+.section-3{
+
+
+}
+
+.qMark{
+    font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: 1; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
+}
+
+.sec3-text{
+    font-size: 2.2em; display: inline-block; width: 80%; 
+}
+
+.cta3{
+    display:inline-flex; text-align: center; padding: 20px;
+}
+
+a{
+    text-decoration: none;
     
 }
 
-.footer-left{
-    display: flex;
-    justify-content: left;
-    padding-right: 300px;
+.sec3-cta1{
+   color:rgb(255, 255, 255) !important; background-color:rgb(50, 127, 199); padding: 10px 20px 10px 20px; border-radius:5px 0px 0px 5px; font-size:1em; border: 2 solid gray; border-color: rgb(216, 216, 216);
+}
+.sec3-cta2{
+   background-color:rgb(237, 237, 238); color:rgb(20, 20, 20); padding: 10px 20px 10px 20px; border-radius:0px 0px 0px 0px; font-size:1em; border: 2 solid gray; border-color: rgb(173, 173, 173);
+}
+.sec3-cta3{
+   background-color:rgb(237, 237, 238); color:rgb(20, 20, 20); padding: 10px 20px 10px 20px; border-radius:0px 5px 5px 0px; font-size:1em; border: 2 solid gray; border-color: rgb(216, 216, 216);
 }
 
-.middle-footer{
-    display: flex;
-    justify-items: center;
+.two{
+    font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: 1; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
 }
-.footer-right{
-    display:flex;
-    justify-content: right;
-    padding-left: 300px;
+
+.section-4{
+    display:inline-block; background-color: rgb(255, 255, 255); width: 75%; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211); padding: 50px 50px; margin-bottom: 40px;
+}
+
+.sec4Head{
+    font-size: 2.2rem; text-align: center; width: 80%; padding-left:10rem;
+}
+
+.sub4Text{
+    font-size:1.5rem; line-height: 2rem; text-align: center;
+}
+
+.section-5{
+    display:inline-block; background-color: rgb(255, 255, 255); width: 75%; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211); padding: 50px 50px; margin-bottom: 40px;
+
+}
+
+.sec5Head{
+    font-size: 2.2rem; text-align: center; width: 80%; padding-left:10rem;
+}
+
+.sub5Text{
+    font-size:1.5rem; line-height: 2rem; text-align: center;
+}
+
+.three{
+    font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: index; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
+}
+
+.section-6{
+    display:inline-block; background-color: rgb(255, 255, 255); width: 75%; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211); padding: 50px 50px; margin-bottom: 40px;
+
+}
+.sec6Main{
+    font-size: 2.2rem; text-align: center; width: 80%; padding-left:10rem;
+}
+
+.sub6Text{
+    font-size:1.5rem; line-height: 2rem; text-align: center;
+}
+
+.four{
+    font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: 1; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
+}
+.five{
+    font-size: 3em; background-color: rgb(50, 127, 199); color: white; width: 5.3%; top: 50px; left:150px; z-index: 1; position: relative; border-radius: 50%; border: 2 solid; border-color: gray;
+}
+
+.section-7{
+    display:inline-block; background-color: rgb(255, 255, 255); width: 75%; border-radius: 5px; border: 1px solid; border-color: rgb(211, 211, 211); padding: 50px 50px; margin-bottom: 70px;
+
+}
+
+.section-8{
+    padding-top:50px; padding-bottom: 50px;
+}
+
+.sec8Head{
+    padding: 10px 10px 20px 10px;
+}
+
+.grid1{
+    display: inline-flex; width: 80%; text-align: center;
+}
+
+.leftGrid, .midGrid, .rightGrid{
+    padding:10px;
+}
+
+.lgText, .mgText, .rgText{
+    color: rgb(50, 127, 199); padding-top: 20px;
+}
+
+.jekyll{
+    color:rgb(50, 127, 199);
+}
+.readMore{
+    color:rgb(50, 127, 199);
+}
+.learnMore{
+    color:rgb(50, 127, 199);
+}
+
+.leftGrid-icon{
+    width: 7%; color: blue; 
+}
+.midGrid-icon{
+    width: 10%; color: blue; 
+}
+.rightGrid-icon{
+    width: 10%; color: blue; 
 }
